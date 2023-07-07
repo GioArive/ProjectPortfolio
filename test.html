@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <style>
+    .get-in-touch {
+  background-color: rgba(14, 35, 228, 1); /* Set the background color */
+  color: white; /* Set the text color */
+    
+    }
+    body {
+        margin: 10px;
+    }
+    .white {
+        color: black; /* Set the text color */ 
+    }
+    .alex{
+        color: rgb(14, 35, 228);
+        font-size: 72px;
+    }
+    .name{
+        
+        font-size: 48px;
+    }
+    .hire{
+        background-color: rgba(14, 35, 228, 1); /* Set the background color */
+        color: white; /* Set the text color */
+    }
+    .textt{
+        color: rgb(14, 35, 228);
+        
+    }
+    .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+  </style>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light m-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="altiumdesigner-blue.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <b>Portfoliosm</b>
+          </a>
+          <ul class="navbar-nav flex-row justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link active white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link white" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link white" href="#">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link get-in-touch" href="#">Get in Touch</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      
+    <div class="jumbotron m-5" style="padding: 20px; margin: 20px;">
+        <h1 class="name fw-bolder">Hello! My Name is</h1>
+        <h1 class="alex fw-bolder">Alexander<br>Murphy</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing <br>
+          elit. Aliquam ligula nibh. interdum et malesuasda <br>
+          fames ac ante ipsum primis in faucibus.
+        </p> 
+        <nav class="nav nav-pills">
+          <a class="nav-link hire" aria-current="page" href="#">Hire Me</a>
+        </nav>
+        <img src="combo.png" alt="" width="500" height="500" class="d-inline-block align-text-top" style="position: relative; top: -500px; left: 900px; padding: 20px; margin: 20px;">
+        
+    </div>
+   
+    <div class="jumbotron jumbotron-fluid" style="position: relative; top: -500px; padding: 20px; display: flex; justify-content: space-between;">
+        <div class="container" style="margin-left: 210px;">
+          <h1 class="display-4"><b>&nbsp;&nbsp;85+</b></h1>
+          <p class="lead">Awesome Projects</p>
+        </div>
+        <div class="container" style="margin-left: -210px;">
+          <h1 class="display-4"><b>&nbsp;&nbsp;10+</b></h1>
+          <p class="lead">Years Experience</p>
+        </div>
+        <div class="container" style="margin-left: -210px;">
+            <h1 class="display-4"><b>&nbsp;100%</b></h1>
+            <p class="lead">Satisfied Customer</p>
+          </div>
+    </div>
+
+    <div class="jumbotron" style="position: relative; top: -300px; padding: 20px; display: flex; flex-direction: column; align-items: center;">
+        <h1 class="name fw-bolder">What Service Do You Need?</h1>
+        <div style="display: flex; flex-direction: column; align-items: center; margin-top: 10px;">
+          <div style="display: flex; justify-content: center; margin-right: 200px;">
+            <img src="web1.png" class="rounded" alt="..." style="margin-right: 300px;">
+            <img src="web2.png" class="rounded" alt="..." style="margin-right: 300px;">
+            <img src="web3.png" class="rounded" alt="..." style="margin-right: 300px;">
+            <img src="web4.png" class="rounded" alt="...">
+          </div>
+          <div style="display: flex; justify-content: center; margin-right: 150px;">
+            <button type="button" class="btn btn-link align-bottom" style="margin-right: 300px;">See More</button>
+            <button type="button" class="btn btn-link align-bottom" style="margin-right: 350px;">See More</button>
+            <button type="button" class="btn btn-link align-bottom" style="margin-right: 340px;">See More</button>
+            <button type="button" class="btn btn-link align-bottom" >See More</button>
+          </div>
+        </div>
+    </div>
+    <div class="m-5">
+        <h1 class="name fw-bolder " style="text-align: center;">Latest Projects</h1>
+        <div class="card-group">
+          <div class="card" style="width: 18rem; margin-right: 20px;">
+            <img class="card-img-top" src="ecom.png" alt="Card image cap">
+            <p class="lead textt">Website Development</p>
+            <h5 class="card-title">E-Commerce for Food</h5>
+            <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="card-body text-center">
+              <a href="#" class="hire btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; margin-right: 20px;">
+            <img class="card-img-top" src="images.jfif" alt="Card image cap">
+            <p class="lead textt">Mobile Apps Development</p>
+            <h5 class="card-title">Medical Care for iOS</h5>
+            <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="card-body text-center">
+              <a href="#" class="hire btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="image_04_alina_siebert-1.jpg" alt="Card image cap">
+            <p class="lead textt">Graphic Design</p>
+            <h5 class="card-title">Personal Branding Logo</h5>
+            <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="card-body text-center">
+              <a href="#" class="hire btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <h1 class="name fw-bolder" style="text-align: center;">Testimonials</h1>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image (6).png" class="d-block mx-auto w-50" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="card bg-dark text-white d-flex align-items-center justify-content-center" style="height: 40px; margin-top: 350px;">
+        <img class="card-img" src="bg.png" alt="Card image">
+        <div class="card-img-overlay text-center">
+            <h1 class="name fw-bolder">Let's Work Together</h1>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut scelerisque nunc. 
+            <br>Suspendisse et vehicula lorem. Aliquam condimentum ultrices tortor, nec elementum <br>
+            elit. Morbi ac nunc at augue iaculis rutrum a ut ipsum. Integer ultricies </p>
+            <button type="button" class="textt btn btn-light">Contact Me</button>
+        </div>
+      </div>
+
+      <div class="jumbotron jumbotron-fluid" style="height: 40px; margin-top: 350px; display: flex; justify-content: space-between;">
+        <div class="container" style="margin-left: 120px;">
+          <h4 class="">Portfoliosm</h4>
+          <p class="lead">Lorem ipsum dolor sit amet,<br>
+            consectetur adipiscing elit. Proin at <br>
+            magna tortor. Nunc dictum id ante<br><br>
+      
+            780-782 Newark Ave, NJ 07306 United States<br>
+            admin@portfoliosm.net<br>
+            (1) 232-2425-531
+          </p>
+        </div>
+        <div style="margin-right: 115px;">
+          <h4 class="">About</h4>
+          <p class="lead">
+            Profile<br>
+            Projects
+          </p>
+        </div>
+        <div style="margin-right: 115px;">
+          <h4 class="">Services</h4>
+          <p class="lead">
+            Development<br>
+            Design<br>
+            SEO Optimization<br>
+            Graphic Design
+          </p>
+        </div>
+        <div style="margin-right: 115px;">
+            <h4 class="">Contact Us</h4>
+            <p class="lead">
+                <i class="fa fa-spinner fa-spin"></i>
+                <i class="fa fa-circle-o-notch fa-spin"></i>
+                <i class="fa fa-refresh fa-spin"></i>
+                
+            </p>
+          </div>
+      </div>
+      
+      
+      
+      
+      
+
+
+
+      
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
